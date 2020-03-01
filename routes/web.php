@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get("/actores", "ActorController@listado");
+
+Route::get("/peliculas", "MovieController@listado");
+
+Route::get("/pelicula/{id}" , "MovieController@detalle");

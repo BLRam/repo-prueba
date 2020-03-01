@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use app\Genero;
 
-class Genre extends Controller
+class GenreController extends Controller
 {
     //
 }
